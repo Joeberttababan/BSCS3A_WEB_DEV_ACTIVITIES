@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(51, 87, 87);
+  font-family: Arial, sans-serif;
+}
+h1{
+  color: white;
+}
+h3{
+  color: white;
+}
+.information {
+  display: flex;
+  justify-content: center;
+}
+.containerFoot{
+  background-color: rgb(142, 177, 186);
+  width:100%;
+  height:80px;
+}
+.storeInfo{
+  text-align: center;
+  color:rgb(82, 58, 6);
+  margin-right:10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sweetTable{
+  display: flex;
+  margin-left:40px;
+  width: 320px;
+  height:320px;
+  border-collapse: collapse;
+}
+.sweetTable td {
+  text-align: center;
+  padding: 10px;
+}
+.category{
+  display: flex;
+  margin-top: 20px;
+}
+.itemDesc{
+  font-size: x-small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:whitesmoke;
+}
+tr{
+  width:320px;
+  height:320px;
+}
+th{
+  border:1px solid;
+  display:grid;
+  margin: auto;
+}
+td{
+  vertical-align: bottom;
+}
+
+.items{
+  display: block;
+  margin-right:auto;
+  width:contain;
+  height:contain;
+  border-radius:none;
+}
+#itemDesc{
+  width:auto;
+  height:21em;
+  background-color: inherit;
+}
+strong{
+  font-size:x-large;
+}
