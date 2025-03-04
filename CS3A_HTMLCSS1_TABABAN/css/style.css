@@ -1,0 +1,58 @@
+h1{
+    color: red;
+    font-size: 2.5em;
+  } 
+
+  p{
+    color: aqua;
+    padding: 5px;
+    background: midnightblue;
+  }
+
+  .leader{
+        background: red!important;
+        color: white;
+  }
+
+  a:link {
+    color:pink;
+  }
+  a:visited{
+    color:green;
+  }
+  a:hover{
+    color:blue;
+  }
+
+  .notebox{
+    border: 4px solid red;
+    padding: 0.5em;
+    margin:0.5em;
+
+  }
+  .notebox.warning{
+    border-color:orange;
+    font-weight: bold;
+  }
+  .notebox.danger{
+    border-color:red;
+    font-weight: bold;
+  }
+  body{
+    font-family:sans-serif;
+  }
+  p, ul {
+    border:2px solid rebeccapurple;
+    padding:0.2em;
+  }
+  .block, li{
+    border:2px solid blue;
+    padding:0.2em;
+  }
+  ul{
+    display:flex;
+    list-style: none;
+  }
+  .block{
+    display: block;
+  }

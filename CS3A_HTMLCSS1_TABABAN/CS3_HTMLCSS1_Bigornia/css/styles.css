@@ -1,0 +1,17 @@
+h1{
+ color: red;
+font-size: 2.5em;
+}
+p {
+    color: aqua;
+    padding: 5px;
+    background: midnightblue;
+}
+.groupl{
+    color: gold;
+    font-weight: bold;
+}
+.kupal{
+    color: pink;
+    font-weight: bold;
+}
