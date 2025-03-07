@@ -1,0 +1,14 @@
+.btn{
+  color:whitesmoke;
+  background-color:gray;
+  font-style:italic; 
+  font-family:sans-serif;
+  font-weight:bold;
+  border-style:none;
+}
+.headline, a{
+  background-color:white;
+  font-size:large;
+  color:whitesmoke;
+  font-weight:bold;
+}
