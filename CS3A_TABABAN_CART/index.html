@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Add to Cart</title>
+</head>
+<body>
+	<div class="container">
+		<div class="product">
+			<h1>Cellphone</h1>
+			<img src="assets/cell.jpg" alt="Cellphone">
+			<h3>Price:$100</h3>
+			<button class="buttonAdd" onclick="addToCart('Cellphone', 100)">Add to Cart</button>
+			<button class="buttonRem" onclick="removeFromCart('Cellphone', 100)">Remove from Cart</button>
+		</div>
+	
+		<div class="product">
+			<h1>Laptop</h1>
+			<img src="assets/lapt.jpg" alt="Laptop">
+			<h3>Price:$400</h3>
+			<button class="buttonAdd" onclick="addToCart('Laptop', 400)">Add to Cart</button>
+			<button class="buttonRem" onclick="removeFromCart('Laptop', 400)">Remove from Cart</button>
+		</div>
+	
+		<div id="cart">
+			<h1>Cart</h1>
+			<ul id="products"></ul>
+		</div>
+	</div>
+
+
+
+
+
+
+	<script src="./js/cart.js" defer></script>
+</body>
+</html>
