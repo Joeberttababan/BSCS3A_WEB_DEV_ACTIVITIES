@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(255,255,255);
+  background: linear-gradient(to bottom right, rgba(255,255,255,1) 0%, rgba(228,73,91,1) 40%, rgba(147,69,177,1) 90%);
+
+}
+.container {
+  background:inherit;
+  padding: 20px;
+  border-radius: 5px;
+  width:50%;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.hero{
+  position:absolute;
+  bottom:40px;
+  left:20px;
+}
+/**
+input {
+  display: block;
+  margin:auto;
+  padding: 10px;
+  width: 50%;
+} **/
+button {
+  padding:2px;
+  background: rgb(255, 54, 18);
+  color: white;
+  border: none;
+  height:30px;
+  width:80px;
+  border-radius:8px;
+  cursor: pointer;
+}
+button:hover {
+  opacity:.5;
+
+}
+.navBarXLogo{
+  display:flex;
+  
+}
+.logo{
+  width:100px;
+  height:100px;
+  border-radius:360px;
+  
+}
+.flex{
+  display:flex;
+
+}
+#buttonLS{
+  position:absolute;
+  top:75%;
+  left:38%;
+}
+a{
+  text-decoration:none;
+  border-radius:10px;
+  font-family: sans-serif;
+  font-weight:normal;
+}
+
+#imageCenter{
+  position:absolute;
+  left: 45%;
+  top: 20%;
+}
+
+
+/****/
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width:50%;
+  padding: 12px 10px;
+  background-color:inherit;
+  font-size: 16px;
+  border: 2px solid white;
+  opacity:.5;
+  border-radius: 5px;
+  outline: none;
+  margin: auto;
+  color:white;
+  font-size: small;
+}
+
+.input-container label {
+  position: absolute;
+  top: 50%;
+  left:25%;
+  transform: translateY(-50%);
+  background:white;
+  border-radius:5px;
+  padding: 0 5px;
+  font-size: 16px;
+  color:white;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+  top: 5px;
+  font-size: 12px;
+  color:black;
+}
